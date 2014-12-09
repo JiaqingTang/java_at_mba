@@ -1,7 +1,6 @@
 package sbst;
 
-public class Findmax {
-    
+public class Findmax {    
     public int maxPathSum(TreeNode root) {
     	int[] max = {Integer.MIN_VALUE};
     	int val = maxPathSum_helper(root, max);
